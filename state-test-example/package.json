@@ -1,0 +1,12 @@
+{
+  "name": "state-test-example",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "statetest -r ts-node/register ./**/*.stest.ts"
+  },
+  "dependencies": {
+    "state-test": "0.0.1",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
+  }
+}

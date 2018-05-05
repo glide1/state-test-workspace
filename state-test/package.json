@@ -1,0 +1,23 @@
+{
+  "name": "state-test",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "bin": {
+    "statetest": "./bin/statetest"
+  },
+  "scripts": {
+    "start": "node -r source-map-support/register ./dist/index.js",
+    "cli": "node -r source-map-support/register ./dist/cli.js",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/glob": "^5.0.35",
+    "@types/node": "^7.0.60",
+    "source-map-support": "^0.5.4",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "glob": "^7.1.2"
+  }
+}
